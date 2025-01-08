@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(126, 126, 126);
+}
+
+.container {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 450px;
+    display: block;
+    padding: 460px;
+}
+
+header {
+    display: block;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 9px;
+}
+
+#Tel-Png {
+    height: 50px;
+    width: 50px;
+    margin: 9px;
+}
+
+
+form input {
+    font-size: 24px;
+    border: none;
+    padding: 8px;
+    background-color: #fff;
+    margin: 9px;
+}
+
+
+form button {
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    padding: 8px;
+    background-color: #fff;
+    margin: 9px;
+    background-color: rgb(65, 127, 197);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+form li {
+    display: flex;
+}
