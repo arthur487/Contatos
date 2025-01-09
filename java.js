@@ -9,12 +9,12 @@ form.addEventListener('submit', function(e) {
 });
 
 function addlines() {
-    const ContactName = document.getElementById('Nome-De-Contato');
-    const ContactNumero = document.getElementById('Contact-Number');
+    const InputNome = document.getElementById('Nome-De-Contato');
+    const InputNota = document.getElementById('Contact-Number');
 
-let linha = '<tr>'
-linha += `<td>${ContactName.value}</td>`;
-linha += `<td>${ContactNumero.value}</td>`;
+    let linha = '<tr>';
+    linha += `<td>${InputNome.value}</td>`;
+    linha += `<td>${InputNota.value}</td>`;
 linha += '</tr>';
 
 
