@@ -16,9 +16,9 @@ function addlines() {
     const Nome = document.getElementById('Nome-De-Contato');
     const Numeros = document.getElementById('Contact-Number');
     if (Names.includes(Nome.value)) {
-        alert(`O numero do: ${Nome.value} ja foi salvo`);
-    } if (Numero.includes(Numeros.value)) {
-        alert(`O numero: ${Numeros.value} ja foi salvo`);
+        alert(`O numero do: ${Nome.value} ja foi salvo`); 
+    } else { if (Numero.includes(parseFloat(Numeros.value))) {
+        alert(`O numero: ${parseFloat(Numeros.value)} ja foi salvo`);
     } else {
     Names.push(Nome.value);
     Numero.push(parseFloat(Numeros.value));
@@ -34,7 +34,7 @@ linha += '</tr>';
     Nome.value = '';
     Numeros.value = '';
     }
-}
+}}
 
 function UpdateTable() {
     const Tbody = document.querySelector('tbody');
