@@ -5,34 +5,38 @@
 }
 
 header {
-    display: block;
-    align-items: center;
+    display: flex;
+    padding-top: 50px;
 }
 
-#Tel-Png {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 31%;
-}
 body {
-    background-color: #e7e7e7;
+    background-color: #bbb9b9;
     padding-top: 300px;
+    background-image: url("https://pngimg.com/d/notebook_PNG19223.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 header h1 {
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 15px;
+    color: #000000;
+    position: relative;
+    left: 3%;
 }
 .container {
-    max-width: 960px;
-    width: 100px;
+    max-width: 2100px;
+    width: 500px;
     margin: 0 auto;
+    justify-items: center;
+    padding: 50px;
+    padding-bottom: 50px;
 }
 
-table th {
-    padding-right: 50px;
-    padding-top: 70px;
+table td {
+    padding-right: 0px;
+    padding-top: 26px;
 }
 form li {
     display: grid;
@@ -41,8 +45,9 @@ form li {
 }
 
 button {
-    position: absolute;
-    left: 49.2%;
+    position: relative;
+    left: 2%;
+    top: 45%;
     padding: 16px;
     background-color: rgb(7, 100, 240);
     color: #fff;
@@ -59,14 +64,16 @@ button:hover {
 }
 
 form input {
-    border: none;
+    border-radius: 5px;
+    border-color: #000000;
     height: 50px;
     width: 200px;
     position: relative;
-    left: -9%;
+    left: 2%;
     text-align: center;
+    top: 50%;
 }
-table th {
+table td {
     font-size: 20px;
 }
 
