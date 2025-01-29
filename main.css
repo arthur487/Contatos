@@ -6,7 +6,7 @@
 
 header {
     display: flex;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 body {
@@ -34,14 +34,17 @@ header h1 {
     padding-bottom: 50px;
 }
 
-table td {
-    padding-right: 0px;
-    padding-top: 26px;
+li {
+    position: relative;
+    left: 25%;
+    padding-top: 18px;
+    font: bold;
+    font-size: 24px;
 }
-form li {
-    display: grid;
-    align-content: center;
-    padding-bottom: 15px;
+
+li:hover {
+    cursor: pointer;
+    font-size: 26px;
 }
 
 button {
@@ -72,8 +75,5 @@ form input {
     left: 2%;
     text-align: center;
     top: 50%;
-}
-table td {
-    font-size: 20px;
 }
 
